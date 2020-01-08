@@ -279,10 +279,11 @@ footer a{
 	left: 0;
 	right: 0;
 	z-index: 2;
+
 	
 
 }
-.popup .show{
+.popup.show{
 	display: block;
 	
 }
@@ -314,17 +315,20 @@ footer a{
 .popup .close{
 	width: 80px;
 	height: 80px;
-	background-color: #FF3300;
+	background: #FF3300 url(x.png) no-repeat center
+	center;
 	background size: 50%;
+	position: absolute;
 	top: -40px;
 	right: -40px;
 	border-radius: 50%;
-	border: none;
+	border:none;
 	outline: none;
 	overflow: hidden;
 	text-indent: -999px;
-	position: absolute;
 	cursor: pointer;
+
+	
 }
 .popup .row{
 
